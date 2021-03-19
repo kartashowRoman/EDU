@@ -1,3 +1,4 @@
 def solution(a):
     ### YOUR CODE ###
-    return
+    a_T = list(zip(*a))
+    return a_T

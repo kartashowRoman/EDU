@@ -1,3 +1,3 @@
 def solution(n, k):
     ### YOUR CODE HERE ###
-    return
+    return k // n, k % n 
