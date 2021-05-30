@@ -1,7 +1,7 @@
 
 
 class ReverseIterator(object):
-	"""docstring for ReverseIterator"""
+	
 	def __init__(self, array):
 		self.array = array
 
@@ -11,7 +11,7 @@ class ReverseIterator(object):
 			del self.array[-1]
 			return x
 		except:
-			# print('Empty iterator')
+			
 			raise ValueError('Empty iterator')
 		
 iterator = ReverseIterator([1, 2, 3])
