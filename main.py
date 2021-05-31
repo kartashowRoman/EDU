@@ -55,7 +55,7 @@ class User:
             cur_page += 1
 
 user_names = sys.argv[1:]
-cur_user = 'fabpot' # input()
+cur_user = input()
 users = {name: User(name) for name in user_names}
 
 
